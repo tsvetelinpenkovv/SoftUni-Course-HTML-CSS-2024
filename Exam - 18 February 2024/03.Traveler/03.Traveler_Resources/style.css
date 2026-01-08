@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: normal 16px/1.5 'Cormorant Infant', serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.fixed-size {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.top-page {
+    background-image: url(./images/poster.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+    text-align: center;
+}
+
+.top-page h1 {
+    font: 600 90px/1.5 'Cormorant Infant', serif;
+    color: white;
+    padding-top: 350px;
+    padding-bottom: 150px;
+}
+
+.top-page p {
+    font: bold 18px/1.5 'Karla', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    color: white;
+    padding-bottom: 150px;
+}
+
+.top-page nav {
+    padding: 30px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-page nav img {
+    width: 115px;
+    height: 65px;
+}
+
+.top-page nav ul {
+    display: flex;
+    gap: 2em;
+    list-style-type: none;
+}
+
+.top-page nav ul a {
+    font: bold 18px/1.5 'Karla', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.cite , .media{
+    background-color: #F8F0E9;
+    padding: 2em 0;
+}
+
+.cite p {
+    font: 18px/1.5 'Karla', sans-serif;
+    font-weight: bold;
+    color: #352B2A;
+}
+
+.cite .backquote {
+    font: italic 90px/1 'Cormorant Infant';
+    text-align: center;
+    padding: 1em 0;
+    color: #352B2A;
+}
+
+.red-background {
+    background-color: #E14747;
+    text-align: center;
+}
+
+.info {
+    width: 300px;
+    margin: 0 auto;
+    padding: 2em 0;
+    font: 18px/1.5 'Karla', sans-serif;
+    color: white;
+}
+
+.info p {
+    padding: 1em 0;
+}
+
+.info span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.media {
+    text-align: center;
+}
+
+.card {
+    color: #352B2A;
+    width: 650px;
+    height: 1050px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    text-align: left;
+}
+
+.card h2 {
+    padding: 1em 0;
+    font-size: 90px;
+    text-align: center;
+}
+
+.card p {
+    font: normal 18px/1.5 'Karla', sans-serif;
+    text-align: left;
+    padding-bottom: 3em;
+}
+
+button {
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    margin: 2em 0;
+}
+
+.read {
+    margin: 10em 0 3em 0;
+}
+
+.serif-text {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 48px;
+}
+
+.wide-text {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.no-border {
+    padding: 1em 2em;
+    border: none;
+    background-color: #FAD87A;
+    border-radius: 2em;
+}
+
+footer {
+    font: normal 18px/1.5 'Karla', sans-serif;
+    background-color: #352B2A;
+}
+
+.footer-card {
+    padding: 50px 0 50px 95px;
+}
+
+.footer-card img {
+    width: 115px;
+    height: 65px;
+}
+
+.footer-card .white-text {
+    color: #F9FFF2;
+    padding: 1em 0;
+    width: 500px;
+    font-weight: bold;
+}
+
+.all-rights-reserved {
+    color: #CCC;
+}

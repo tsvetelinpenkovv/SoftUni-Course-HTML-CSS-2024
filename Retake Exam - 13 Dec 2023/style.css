@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 "Agbalumo";
+}
+
+body {
+    padding: 2em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    max-width: 870px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    background-color: #D5EBEA;
+    padding: 2.7em 3em 0.8em 1.2em;
+}
+
+.content h1, .content header p {
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+
+.disc {
+    background-color: #FFF;
+    gap: 1em;
+    margin-left: -1.2em;
+    margin-right: -3em;
+    padding-left: 1.2em;
+    padding-right: 3em;
+}
+
+.flex-section {
+    display: flex;
+    gap: 1.3em;
+    padding: 2.2em 0;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 1.5em;
+}
+
+.map {
+    max-width: 266px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    padding: 0.8em 1.2em 1.2em 0.8em;
+    border: 2px solid #000;
+    font-size: 10px;
+}
+
+.map img {
+    flex: 0 0 auto;
+}
+
+main p {
+    text-indent: 1.8em;
+    text-align: start;
+}
+
+
+h3 {
+    font-size: 1.3em;
+    display: inline;
+    background-color: #000;
+    color: #fff;
+    margin-left: -1em;
+    margin-right: -3em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+ul li {
+    list-style: none outside;
+    padding-top: 0.5em;
+}
