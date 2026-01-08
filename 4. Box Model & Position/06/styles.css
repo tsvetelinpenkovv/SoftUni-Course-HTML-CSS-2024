@@ -1,0 +1,25 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+nav * {
+    display: inline-block;
+}
+
+li {
+    padding-right: 15px;
+    color: green;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+main {
+    border-top: 1px solid black;
+}
+
+p {
+    font-size: 14px;
+}

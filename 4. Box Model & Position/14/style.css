@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 5em;
+}
+
+li {
+    display: inline-block;
+}
+
+.fb {
+    background-color: rgb(240, 240, 240);
+    margin: 0.3em;
+    padding: 1em;
+    color: black;
+    border-radius: 50%;
+}
+
+.tw {
+    background-color: rgb(240, 240, 240);
+    margin: 0.3em;
+    padding: 1em;
+    color: black;
+    border-radius: 50%;
+}
+
+.gl {
+    background-color: rgb(240, 240, 240);
+    margin: 0.3em;
+    padding: 1em;
+    color: black;
+    border-radius: 50%;
+}
+
+.in {
+    background-color: rgb(240, 240, 240);
+    margin: 0.3em;
+    padding: 1em;
+    color: black;
+    border-radius: 50%;
+}
+
+.ig {
+    background-color: rgb(240, 240, 240);
+    margin: 0.3em;
+    padding: 1em;
+    color: black;
+    border-radius: 50%;
+}
+
+
+
