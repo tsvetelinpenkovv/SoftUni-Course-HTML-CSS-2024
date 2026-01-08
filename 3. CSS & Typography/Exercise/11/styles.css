@@ -1,0 +1,54 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 15px;
+    padding: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif; 
+}
+
+blockquote {
+    border-left: rgb(221,221,221);
+    font-style: italic;
+
+}
+
+
+ thead, th {
+    background-color: darkgrey;
+    padding: 8px;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;  
+}
+
+table, td {
+    border: 1px solid rgb(235, 235, 235);
+    padding: 8px;
+    text-align: left;
+    
+}
+
+th{
+    width: 10%;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(244, 244, 244);
+    
+}
+
+.align-right {
+    text-align: right;
+}
+
