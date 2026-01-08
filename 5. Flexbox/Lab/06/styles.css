@@ -1,0 +1,17 @@
+.flex-container {
+    background-color: rgb(0, 145, 255);
+    width: 50%;
+    height: 40vh;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: flex-end;
+    
+    
+}
+
+.flex-container div {
+    background-color: white; 
+    margin: 1em;
+    padding: 1em;
+    
+}

@@ -1,0 +1,47 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2em;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0, 0, 0);
+         
+}
+
+h1 {
+    font-weight: normal;
+}
+nav {
+    margin-left: auto;
+}
+
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    
+}
+
+nav ul {
+    display: flex;
+    text-align: right;
+    list-style-type: none;
+    gap: 1em;
+    
+}

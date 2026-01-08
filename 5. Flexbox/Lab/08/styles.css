@@ -1,0 +1,27 @@
+.flex-container {
+    width: 50%;
+    height: 50vh;
+    background-color: rgb(0, 145, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container div {
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+}
+
+#one {
+    flex-grow: 1;
+}
+
+#two {
+    flex-grow: 2;
+}
+
+#three {
+    flex-grow: 3;
+}
+
+

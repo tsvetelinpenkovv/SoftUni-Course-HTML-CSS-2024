@@ -1,0 +1,19 @@
+.flex-container {
+    background-color: rgb(0, 153, 255);
+    display: flex;
+    height: 200px;
+    width: 30%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#box2 {
+    background-color: pink;
+    align-self: center;
+}
+#box1, #box3 {
+    background-color: white; 
+}
+#box1, #box2, #box3 {
+    margin: 10px;
+    padding: 20px;
+}

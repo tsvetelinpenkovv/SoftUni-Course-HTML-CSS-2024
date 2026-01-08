@@ -1,0 +1,40 @@
+
+body {
+   background-color: #EEE;
+   padding: 5rem;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2em;
+}
+
+header,
+main,
+aside,
+footer {   
+padding: 2rem;
+background-color: #fff;
+border-radius: 0.4rem;
+min-height: 10em;
+box-shadow: 0 0 1em 0 rgba(0,0,0,0.2);
+}
+
+header, footer {
+    flex-basis: 100%;
+    
+}
+
+header {
+    min-height: 3em;
+}
+
+footer {
+    min-height: 1.5em;
+}
+
+main {
+    flex: 2 1 30rem;
+}
+
+aside {
+    flex: 1 1 15rem;
+}
